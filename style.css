@@ -1,0 +1,180 @@
+.top{
+    position: absolute;
+    min-width: 100%;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+    background: #771818;
+}
+.main{
+    position: absolute;
+    min-width: 100%;
+    height: 818px;
+    left: 0px;
+    top: 102px;
+    background: #91A6BE;
+}
+.end{
+    position: absolute;
+    min-width: 100%;
+    height: 102px;
+    left: 0px;
+    top: 920px;
+    background: #696969;
+}
+.search{
+position: absolute;
+width: 960px;
+height: 61px;
+left: 480px;
+top: 21px;
+background: #C4C4C4;
+}
+.telephone{
+position: absolute;
+width: 68px;
+height: 61px;
+left: 1465px;
+top: 21px;
+}
+.account{
+position: absolute;
+width: 65px;
+height: 68px;
+left: 1572px;
+top: 11px;
+}
+.basket{
+    position: absolute;
+    width: 68px;
+    height: 66px;
+    left: 1687px;
+    top: 13px;
+}
+.frame1{
+    position: absolute;
+    width: 1303px;
+    height: 649px;
+    left: 556px;
+    top: 143px;
+    
+    background: #C4C4C4;
+}
+.first_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 556px;
+    top: 35px;
+    background: rgb(79, 196, 176);
+}
+.second_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 882px;
+    top: 35px;
+    background: rgb(43, 107, 104);
+}
+.trird_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 1208px;
+    top: 35px;
+    background: rgb(12, 60, 71);
+}
+.fourth_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 1534px;
+    top: 35px;
+    background: rgb(32, 126, 105);
+}
+
+.fivth_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 556px;
+    top: 684px;
+    background: rgb(79, 196, 176);
+}
+.sixth_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 882px;
+    top: 684px;
+    background: rgb(43, 107, 104);
+}
+.seventh_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 1208px;
+    top: 684px;
+    background: rgb(12, 60, 71);
+}
+.eighth_buttom{
+    position: absolute;
+    width: 326px;
+    height: 109px;
+    left: 1534px;
+    top: 684px;
+    background: rgb(32, 126, 105);
+}
+.photo_info{
+    position: absolute;
+    width: 558px;
+    height: 437px;
+    left: 617px;
+    top: 179px;
+    background: #B14E4E;
+}
+.frame_produkty{
+    position: absolute;
+    width: 366px;
+    height: 649px;
+    left: 61px;
+    top: 143px;
+    background: #A79595;
+}
+.frame_menu{
+    position: absolute;
+    width: 366px;
+    height: 108px;
+    left: 61px;
+    top: 35px;
+    background: #C4C4C4;
+}
+.instagram{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 1611px;
+    top: 12px;
+}
+.facebook{
+    position: absolute;
+    width: 73px;
+    height: 79px;
+    left: 1720px;
+    top: 11px;
+}
+.twitter{
+    position: absolute;
+    width: 74px;
+    height: 77px;
+    left: 1827px;
+    top: 11px;
+}
+.end_info{
+    position: absolute;
+    width: 1515px;
+    height: 79px;
+    left: 62px;
+    top: 11px;
+    background: #C4C4C4;
+}
