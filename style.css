@@ -4,7 +4,7 @@
     height: 102px;
     left: 0px;
     top: 0px;
-    background: #771818;
+    background: #bbb0b0;
 }
 .main{
     position: absolute;
@@ -22,27 +22,46 @@
     top: 920px;
     background: #696969;
 }
+.logo{
+    position: absolute;
+    width: 252px;
+    left: 62px;
+    top: -98px;
+}
 .search{
-position: absolute;
-width: 960px;
-height: 61px;
-left: 480px;
-top: 21px;
-background: #C4C4C4;
+    position: absolute;
+    width: 1060px;
+    height: 61px;
+    left: 380px;
+    top: 21px;
+    background: #C4C4C4;
+    border-radius: 10px;
 }
 .telephone{
-position: absolute;
-width: 68px;
-height: 61px;
-left: 1465px;
-top: 21px;
+    position: absolute;
+    width: 68px;
+    height: 61px;
+    left: 1465px;
+    top: 21px;
+    transition:all 0.3s ease;
+}
+.telephone:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .account{
-position: absolute;
-width: 65px;
-height: 68px;
-left: 1572px;
-top: 11px;
+    position: absolute;
+    width: 65px;
+    height: 68px;
+    left: 1572px;
+    top: 11px;
+    transition: all 0.3s ease;
+}
+.account:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .basket{
     position: absolute;
@@ -50,11 +69,17 @@ top: 11px;
     height: 66px;
     left: 1687px;
     top: 13px;
+    transition: all 0.3s ease;
+}
+.basket:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .frame1{
     position: absolute;
     width: 1303px;
-    height: 649px;
+    height: 541px;
     left: 556px;
     top: 143px;
     
@@ -67,6 +92,8 @@ top: 11px;
     left: 556px;
     top: 35px;
     background: rgb(79, 196, 176);
+    transition:all 0.3s ease;
+    
 }
 .second_buttom{
     position: absolute;
@@ -75,6 +102,7 @@ top: 11px;
     left: 882px;
     top: 35px;
     background: rgb(43, 107, 104);
+    transition:all 0.3s ease;
 }
 .trird_buttom{
     position: absolute;
@@ -83,6 +111,7 @@ top: 11px;
     left: 1208px;
     top: 35px;
     background: rgb(12, 60, 71);
+    transition:all 0.3s ease;
 }
 .fourth_buttom{
     position: absolute;
@@ -91,6 +120,7 @@ top: 11px;
     left: 1534px;
     top: 35px;
     background: rgb(32, 126, 105);
+    transition:all 0.3s ease;
 }
 
 .fivth_buttom{
@@ -100,6 +130,7 @@ top: 11px;
     left: 556px;
     top: 684px;
     background: rgb(79, 196, 176);
+    transition:all 0.3s ease;
 }
 .sixth_buttom{
     position: absolute;
@@ -108,6 +139,7 @@ top: 11px;
     left: 882px;
     top: 684px;
     background: rgb(43, 107, 104);
+    transition:all 0.3s ease;
 }
 .seventh_buttom{
     position: absolute;
@@ -116,6 +148,7 @@ top: 11px;
     left: 1208px;
     top: 684px;
     background: rgb(12, 60, 71);
+    transition:all 0.3s ease;
 }
 .eighth_buttom{
     position: absolute;
@@ -124,6 +157,39 @@ top: 11px;
     left: 1534px;
     top: 684px;
     background: rgb(32, 126, 105);
+    transition:all 0.3s ease;
+}
+.first_buttom:hover
+{
+    background:#53ea93;
+}
+.second_buttom:hover
+{
+    background:#53ea93;
+}
+.trird_buttom:hover
+{
+    background:#53ea93;
+}
+.fourth_buttom:hover
+{
+    background:#53ea93;
+}
+.fivth_buttom:hover
+{
+    background:#53ea93;
+}
+.sixth_buttom:hover
+{
+    background:#53ea93;
+}
+.seventh_buttom:hover
+{
+    background:#53ea93;
+}
+.eighth_buttom:hover
+{
+    background:#53ea93;
 }
 .photo_info{
     position: absolute;
@@ -140,6 +206,7 @@ top: 11px;
     left: 61px;
     top: 143px;
     background: #A79595;
+    border-radius: 0 10px;
 }
 .frame_menu{
     position: absolute;
@@ -155,6 +222,12 @@ top: 11px;
     height: 77px;
     left: 1611px;
     top: 12px;
+    transition: all 0.3s ease;
+}
+.instagram:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .facebook{
     position: absolute;
@@ -162,6 +235,12 @@ top: 11px;
     height: 79px;
     left: 1720px;
     top: 11px;
+    transition: all 0.3s ease;
+}
+.facebook:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .twitter{
     position: absolute;
@@ -169,6 +248,12 @@ top: 11px;
     height: 77px;
     left: 1827px;
     top: 11px;
+    transition: all 0.3s ease;
+}
+.twitter:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .end_info{
     position: absolute;
